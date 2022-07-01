@@ -33,7 +33,7 @@ header img{
     background-color: #29bf92c0;
     height: 70vw;
     height: 670px;
-    overflow-x:scroll;
+    overflow-x: visible;
 }
 
 .nav-mob{
@@ -182,11 +182,13 @@ main{
     .nav-mob{
         display: flex;
         flex-direction: row-reverse;
-    justify-content: space-between;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
     }
 
-    .mobile-menu{
-
+    .mobile-menu img{
+        height: 30px;
     }
     
     .nav-list-mobile{
