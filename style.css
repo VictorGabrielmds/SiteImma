@@ -176,6 +176,14 @@ main{
 }
 
 @media screen and (max-width:938px){
+
+    .button{
+        z-index: 99999;
+        transform: translateY(10px);
+    }
+    .exam-button{
+        background-color: #fff;
+    }
     .about-list ul{
         flex-direction: column;
     }
