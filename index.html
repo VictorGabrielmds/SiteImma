@@ -12,43 +12,112 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 
 </head>
 <body>
-    <div class="container-fluid">
-        
+    <div class="">
+
         <header>
-            <div class="row desk">
+            <nav class="row desk">
                 <div class="col-12 nav-part">
-                    <img src="img/clinicaimma.svg">
-                    <lu class="nav-list nav-white-part">
+                    <a href="index.html"><img src="img/clinicaimma.svg"></a>
+                    <ul class="nav-list nav-white-part">
                         <li><a href="about.html">Quem somos</a></li>
                         <li><a href="procedimentos.html">Procedimentos</a></li>
                         <li><a href="especialidades.html">Especialidades</a></li>
                         <li><a href="convenios.html">Convênios</a></li>
-                        <li><a href="contato.html">Fale Conosco</a></li>
-                    </lu>
+                        <li><a href="contato.html"><nobr>Fale Conosco</nobr></a></li>
+                        <li class="button"><a class="exam-button" href="exames.html">exames</a></li>
+                        
+                    </ul>
                 </div>
-            </div>  
-        </header>
+            </nav>
 
-        <div class="button">
-                <li><a class="exam-button" href="exames.html">exames</a></li>
-        </div>
+            <nav class="nav-mob">
+
+                <div class="mobile-menu" onclick="mobMenuPlay()">
+                    <img src="img/mobileMenuBotton.svg" alt="">
+                </div>
+
+                <a href="index.html" class="logo "><img src="img/clinicaimma.svg" alt=""></a>
+
+
+                <ul class="nav-list nav-list-mobile">
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="institucional.html">Institucional</a></li>
+                    <li><a href="transparencia.html">Transparência</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <!-- -->    
+
+            </nav>  
+        </header>
 
         <main>
             <div class="paint row">
-                <div class="col-8">
-    
+                <div class=" green-paint  col-8">
+                    <div class="main-title">
+                        <h1>Sua saúde em 1° lugar!</h1>
+                        <h2> Consultas <span>•</span> exames <span>•</span> pequenas cirurgias</h2>
+                    </div>
                 </div>
-                <div class="green-paint col-4">
+                <div class="col-4">
                     
                 </div>
     
             </div>
         </main>
+
+        <section class="convenios">
+            <div class="title">
+                <h2>Convênios</h2>
+            </div>
+            <div class="slide-convenios"></div>
+        </section>
+
+        <section class="about">
+            <div class="title">
+                <span>Quem somos nós?</span>
+                <h2>Sobre a Imma Acesso</h2>
+            </div>
+            <div class="about-list">
+                <ul>
+                    <li>
+                        <div class="circle c1"><div><img src="img/mission.png"></div></div>
+                        <h3>Nossa Missão</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Phasellus maximus nibh ut
+                            tellus luctus viverra. Ut iaculis ante id ligula
+                            ornare, tincidunt viverra neque congue.
+                            Donec iaculis ante commodo sodales feugiat. Vivamus fringilla in urna ut porta. </p>
+                    </li>
+                    <li>
+                        <div class="circle c2"><div><img src="img/vision.png"></div></div>
+                        <h3>Nossa visão</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Phasellus maximus nibh ut
+                            tellus luctus viverra. Ut iaculis ante id ligula
+                            ornare, tincidunt viverra neque congue.
+                            Donec iaculis ante commodo sodales feugiat. Vivamus fringilla in urna ut porta. </p>
+                    </li>
+                    <li>
+                        <div class="circle c3"><div><img src="img/values.png"></div></div>
+                        <h3>Nossos valores</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Phasellus maximus nibh ut
+                            tellus luctus viverra. Ut iaculis ante id ligula
+                            ornare, tincidunt viverra neque congue.
+                            Donec iaculis ante commodo sodales feugiat. Vivamus fringilla in urna ut porta. </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            
+        </footer>
 
     </div>    
 
