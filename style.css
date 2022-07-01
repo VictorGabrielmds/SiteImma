@@ -174,14 +174,25 @@ main{
 .c3{
     background-color: #FF1D37;
 }
+.b{
+    display: none;
+}
 
 @media screen and (max-width:938px){
 
+    main{
+        height:470px;
+    }
+    .green-paint{
+        height: 470px;
+    }
+
     .button{
         z-index: 99999;
-        transform: translateY(10px);
+        transform: translateY(1.4rem);
     }
     .exam-button{
+        font-size: 1.6rem;
         background-color: #fff;
     }
     .about-list ul{
@@ -194,6 +205,10 @@ main{
         justify-content: space-between;
         padding: 10px 0;
         align-items: center;
+    }
+
+    .nav-mob .main-title{
+        color: #000;
     }
 
     .mobile-menu img{
@@ -234,11 +249,18 @@ main{
         display: none;
     }
     .main-title{
-        width: 420px;
-        position: relative;
-        top: 270px;
-        left: 30px;
-        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        position: static;
+        width: auto;
+        color: #000;
+    }
+    .main-title h1{
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .b{
+        display: block;
     }
 
 }
