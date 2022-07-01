@@ -92,17 +92,18 @@ main{
 }
 
 .main-title{
+    width: 420px;
     position: relative;
     top: 290px;
-    left: 120px;
+    left: 80px;
     color: #fff;
 }
 
 .main-title h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 }
 .main-title h2{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .title{
@@ -223,6 +224,13 @@ main{
 
     .desk{
         display: none;
+    }
+    .main-title{
+        width: 420px;
+        position: relative;
+        top: 270px;
+        left: 30px;
+        color: #fff;
     }
 
 }
