@@ -198,10 +198,32 @@ main{
 }
 footer{
     background-color: #29bf92;
-    height: 400px;
+    padding: 25px 50px 0 50px;
+    color: #fff;
 }
-footer>div{
-    background-color: #400185;
+footer .row>div{
+    margin: 40px 0;
+}
+footer .logo{
+    height: 100px;
+}
+footer h2{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+footer h3{
+    font-size:1.3rem;
+}
+footer h5{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    opacity: 0.7;
+}
+.icons img{
+    height: 40px;
+    border-radius: 10000px;
+    padding: 5px;
 }
 
 @media screen and (max-width:980px){
@@ -288,6 +310,9 @@ footer>div{
     .b{
         display: block;
     }
+    footer .row>div{
+        margin: 10px 0;
+    }
 
 }
 
@@ -355,7 +380,7 @@ footer>div{
     top: 0;
   }
   .slider .slide-track {
-    animation: scroll 30s linear infinite;
+    animation: scroll 40s linear infinite;
     animation-direction: alternate;
     display: flex;
     width: calc(250px * 14);
