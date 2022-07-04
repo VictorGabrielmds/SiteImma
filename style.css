@@ -196,6 +196,13 @@ main{
 .b{
     display: none;
 }
+footer{
+    background-color: #29bf92;
+    height: 400px;
+}
+footer>div{
+    background-color: #400185;
+}
 
 @media screen and (max-width:980px){
 
@@ -245,7 +252,7 @@ main{
         width: 50%; 
         align-items: center;
         justify-content: space-around;
-        z-index: 99999;
+        z-index: 99999999999999999;
         padding: 15px 0;
         transform: translateX(-100%);
         transition: 0.7s;
