@@ -1,4 +1,4 @@
 function mobMenuPlay(){
     document.querySelector(".nav-list-mobile").classList.toggle("active")
 }
-console.log("3")
+console.log("4")
