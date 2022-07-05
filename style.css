@@ -80,7 +80,7 @@ header img{
 }
 
 .exam-button:hover{
-    color: #fff;
+    color: #29bf92;
     text-decoration: none;
     -webkit-box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.11); 
     box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.11);
@@ -261,6 +261,7 @@ footer h5{
 
     .mobile-menu img{
         height: 30px;
+        cursor: pointer;
     }
     
     .nav-list-mobile{
