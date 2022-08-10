@@ -150,6 +150,7 @@ main{
     display: block;
     text-align: center;
     margin: 20px;
+    flex:1;
 }
 .about-list p{
     display: inline;
@@ -202,17 +203,17 @@ footer{
     color: #fff;
 }
 footer .row>div{
-    margin: 40px 0;
+    margin: 20px 0;
 }
 footer .logo{
     height: 100px;
 }
 footer h2{
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 800;
 }
 footer h3{
-    font-size:1.3rem;
+    font-size:0.7rem;
 }
 footer h5{
     margin-bottom: 0;
